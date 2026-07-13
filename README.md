@@ -5,11 +5,11 @@ to use [PgBeam](https://pgbeam.com) for safe Postgres access. Each skill is a
 `SKILL.md` with YAML frontmatter (`name`, `description`) and a body the agent
 reads when a task matches.
 
-| Skill | What it teaches |
-| ----- | --------------- |
-| [`pgbeam-connect`](./pgbeam-connect/SKILL.md) | Wire an AI agent to Postgres safely: get a scoped credential, choose a guarded connection string or the hosted MCP endpoint, and paste-ready Claude Code, Cursor, and VS Code config. |
-| [`pgbeam-policy`](./pgbeam-policy/SKILL.md) | Author a policy profile as code: access mode, table allow and deny lists, PII masking, row filters, budgets, write mode, with CLI and Terraform. |
-| [`pgbeam-mcp-usage`](./pgbeam-mcp-usage/SKILL.md) | Drive the hosted Postgres MCP tools well once connected: prefer `schema_catalog`, read the policy errors, work within read-only and masking. |
+| Skill                                             | What it teaches                                                                                                                                                                       |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`pgbeam-connect`](./pgbeam-connect/SKILL.md)     | Wire an AI agent to Postgres safely: get a scoped credential, choose a guarded connection string or the hosted MCP endpoint, and paste-ready Claude Code, Cursor, and VS Code config. |
+| [`pgbeam-policy`](./pgbeam-policy/SKILL.md)       | Author a policy profile as code: access mode, table allow and deny lists, PII masking, row filters, budgets, write mode, with CLI and Terraform.                                      |
+| [`pgbeam-mcp-usage`](./pgbeam-mcp-usage/SKILL.md) | Drive the hosted Postgres MCP tools well once connected: prefer `schema_catalog`, read the policy errors, work within read-only and masking.                                          |
 
 ## Install
 
