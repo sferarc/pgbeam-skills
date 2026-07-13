@@ -28,10 +28,3 @@ serves a machine-readable index with per-skill integrity digests:
 
 - Index: `https://pgbeam.com/.well-known/agent-skills/index.json`
 - Each body: `https://pgbeam.com/skills/<name>/SKILL.md`
-
-## Mirror notice
-
-This repository is a read-only public mirror. The canonical source lives in the
-PgBeam monorepo under `skills/`, and this mirror is updated automatically from
-it. Do not open pull requests here; changes are made in the monorepo and synced
-outward. The trusted origin for these skills is `pgbeam.com`.
